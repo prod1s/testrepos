@@ -60,6 +60,8 @@ int main(int argc, char *argv[])
 
     //111
 
+    qDebug() << "Test";
+
     return app.exec();
 }
 
