@@ -53,10 +53,10 @@ int main(int argc, char *argv[])
         password [i] = char(rand() % 26 + 97);
     }
 
-    std::random_shuffle(password, password + 10);
+    std::random_shuffle(password, password + 10);*/
 
 
-    QString pass = password;*/
+    //QString pass = password;
 
     return app.exec();
 }
