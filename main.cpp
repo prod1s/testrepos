@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     QString blah = QString(QCryptographicHash::hash(("myPassword"),QCryptographicHash::Md5).toHex());
     qDebug() << blah;
 
-    srand(time(NULL));
+    /*srand(time(NULL));
 
     char * password;
 
@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     std::random_shuffle(password, password + 10);
 
 
-    QString pass = password;
+    QString pass = password;*/
 
     return app.exec();
 }
